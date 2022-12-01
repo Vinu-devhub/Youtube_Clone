@@ -4,7 +4,7 @@ import React from 'react';
 import { FaRegCompass } from "react-icons/fa";
 import { GiFilmStrip } from "react-icons/gi";
 import {
-    MdHistory, MdHomeFilled, MdOutlinedFlag, MdOutlineFeedback, MdOutlineHelpOutline, MdOutlineSlowMotionVideo, MdOutlineSmartDisplay, MdOutlineSportsVolleyball, MdOutlineVideoLibrary, MdOutlineWatchLater, MdSettings, MdSubscriptions, MdThumbUpOffAlt
+  MdHistory, MdHomeFilled, MdOutlinedFlag, MdOutlineFeedback, MdOutlineHelpOutline, MdOutlineSlowMotionVideo, MdOutlineSmartDisplay, MdOutlineSportsVolleyball, MdOutlineVideoLibrary, MdOutlineWatchLater, MdSettings, MdSubscriptions, MdThumbUpOffAlt
 } from "react-icons/md";
 import { TbDeviceGamepad2, TbMusic } from "react-icons/tb";
   
@@ -118,7 +118,7 @@ const Sidebar = () => {
                 mainLinks.map(({icon, name}) => {
                     return (
                         <li key={name} className={`pl-6 py-3 hover:bg-zinc-600 ${name === "Home" ? "bg-slate-600" : ""}`}>
-                            <a href="#" className='flex items-center gap-5 '>
+                            <a href="#/" className='flex items-center gap-5 '>
                                 {icon}                     <span className='text-sm tracking-wider'>{name}</span>
                             </a>
                         </li>
@@ -131,7 +131,7 @@ const Sidebar = () => {
                 secondaryLinks.map(({icon, name}) => {
                     return (
                         <li key={name} className={`pl-6 py-3 hover:bg-zinc-600`}>
-                            <a href="#" className='flex items-center gap-5 '>
+                            <a href="#/" className='flex items-center gap-5 '>
                                 {icon}                     <span className='text-sm tracking-wider'>{name}</span>
                             </a>
                         </li>
@@ -144,7 +144,7 @@ const Sidebar = () => {
                 subscriptionLinks.map(({icon, name}) => {
                     return (
                         <li key={name} className={`pl-6 py-3 hover:bg-zinc-600`}>
-                            <a href="#" className='flex items-center gap-5 '>
+                            <a href="#/" className='flex items-center gap-5 '>
                                 {icon}                     <span className='text-sm tracking-wider'>{name}</span>
                             </a>
                         </li>
@@ -157,7 +157,7 @@ const Sidebar = () => {
                 helpLinks.map(({icon, name}) => {
                     return (
                         <li key={name} className={`pl-6 py-3 hover:bg-zinc-600`}>
-                            <a href="#" className='flex items-center gap-5 '>
+                            <a href="#/" className='flex items-center gap-5 '>
                                 {icon}                     <span className='text-sm tracking-wider'>{name}</span>
                             </a>
                         </li>
