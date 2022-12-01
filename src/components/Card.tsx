@@ -15,19 +15,19 @@ const Card = ({data} : {data: HomePageVideos}) => {
         </div>
         <div className="flex gap-2">
             <div className="min-w-fit">
-                <a href="#">
+                <a href="#/">
                     <img src={data.channelInfo.image} alt="channel" className='h-9 w-9 rounded-full' />
                 </a>
             </div>
             <div>
                 <h3>
-                    <a href="#" className='line-clamp-2'>
+                    <a href="#/" className='line-clamp-2'>
                         {data.videoTitle}
                     </a>
                 </h3>
                 <div className="text-sm text-gray-400">
                     <div>
-                        <a href="#" className='hover:text-white'>
+                        <a href="#/" className='hover:text-white'>
                             {data.channelInfo.name}
                         </a>
                     </div>

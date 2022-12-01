@@ -15,13 +15,13 @@ const WatchCard = ({data} : {data: RecommendedVideos}) => {
         </div>
         <div className="flex gap-1 flex-col">
             <h4 className='text-sm'>
-                <a href="#" className='line-clamp-2'>
+                <a href="#/" className='line-clamp-2'>
                     {data.videoTitle}
                 </a>
             </h4>
             <div className='text-xs text-gray-400'>
                 <div>
-                    <a href="#" className='hover:text-white'>
+                    <a href="#/" className='hover:text-white'>
                         {data.channelInfo.name}
                     </a>
                 </div>

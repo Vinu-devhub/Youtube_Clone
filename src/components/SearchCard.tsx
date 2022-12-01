@@ -15,7 +15,7 @@ const SearchCard = ({data} : {data: HomePageVideos}) => {
         </div>
         <div className="flex gap-1 flex-col">
             <h3 className='max-w-2xl'>
-                <a href="#" className='line-clamp-2'>
+                <a href="#/" className='line-clamp-2'>
                     {data.videoTitle}
                 </a>
             </h3>
@@ -30,7 +30,7 @@ const SearchCard = ({data} : {data: HomePageVideos}) => {
                 </div>
             </div>
             <div className='min-w-fit my-2'>
-                <a href="#" className='flex items-center gap-2 text-xs text-gray-400'>
+                <a href="#/" className='flex items-center gap-2 text-xs text-gray-400'>
                     <img src={data.channelInfo.image} alt="channel"
                     className='h-9 w-9 rounded-full'
                     />
